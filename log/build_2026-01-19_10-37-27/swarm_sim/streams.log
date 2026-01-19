@@ -1,0 +1,31 @@
+[0.461s] Invoking command in '/home/demirci/swarm_sim_ws/src/swarm_sim': PYTHONPATH=/home/demirci/swarm_sim_ws/build/swarm_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_sim build --build-base /home/demirci/swarm_sim_ws/build/swarm_sim/build install --record /home/demirci/swarm_sim_ws/build/swarm_sim/install.log --single-version-externally-managed install_data
+[0.553s] /home/demirci/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.553s]   warnings.warn(msg)
+[0.605s] running egg_info
+[0.614s] writing ../../build/swarm_sim/swarm_sim.egg-info/PKG-INFO
+[0.614s] writing dependency_links to ../../build/swarm_sim/swarm_sim.egg-info/dependency_links.txt
+[0.615s] writing entry points to ../../build/swarm_sim/swarm_sim.egg-info/entry_points.txt
+[0.615s] writing requirements to ../../build/swarm_sim/swarm_sim.egg-info/requires.txt
+[0.615s] writing top-level names to ../../build/swarm_sim/swarm_sim.egg-info/top_level.txt
+[0.634s] reading manifest file '../../build/swarm_sim/swarm_sim.egg-info/SOURCES.txt'
+[0.634s] writing manifest file '../../build/swarm_sim/swarm_sim.egg-info/SOURCES.txt'
+[0.634s] running build
+[0.635s] running build_py
+[0.635s] copying swarm_sim/swarm_coordinator.py -> /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim
+[0.635s] copying swarm_sim/__init__.py -> /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim
+[0.635s] copying swarm_sim/visualizer.py -> /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim
+[0.635s] copying swarm_sim/simulated_drone.py -> /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim
+[0.635s] running install
+[0.637s] running install_lib
+[0.647s] running install_data
+[0.647s] copying resource/swarm_sim -> /home/demirci/swarm_sim_ws/install/swarm_sim/share/ament_index/resource_index/packages
+[0.648s] copying package.xml -> /home/demirci/swarm_sim_ws/install/swarm_sim/share/swarm_sim
+[0.648s] running install_egg_info
+[0.657s] removing '/home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim-0.0.1-py3.10.egg-info' (and everything under it)
+[0.658s] Copying ../../build/swarm_sim/swarm_sim.egg-info to /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim-0.0.1-py3.10.egg-info
+[0.658s] running install_scripts
+[0.676s] Installing simulated_drone script to /home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim
+[0.676s] Installing swarm_coordinator script to /home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim
+[0.676s] Installing visualizer script to /home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim
+[0.676s] writing list of installed files to '/home/demirci/swarm_sim_ws/build/swarm_sim/install.log'
+[0.692s] Invoked command in '/home/demirci/swarm_sim_ws/src/swarm_sim' returned '0': PYTHONPATH=/home/demirci/swarm_sim_ws/build/swarm_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_sim build --build-base /home/demirci/swarm_sim_ws/build/swarm_sim/build install --record /home/demirci/swarm_sim_ws/build/swarm_sim/install.log --single-version-externally-managed install_data

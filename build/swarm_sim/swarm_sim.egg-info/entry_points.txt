@@ -1,0 +1,6 @@
+[console_scripts]
+mission_commander = swarm_sim.mission_commander:main
+mission_controller = swarm_sim.mission_controller:main
+simulated_drone = swarm_sim.simulated_drone:main
+swarm_coordinator = swarm_sim.swarm_coordinator:main
+visualizer = swarm_sim.visualizer:main

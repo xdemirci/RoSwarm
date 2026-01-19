@@ -1,0 +1,6 @@
+{
+  "package_name": "swarm_msgs",
+  "non_idl_tuples": [
+    "/home/demirci/swarm_sim_ws/src/swarm_msgs:msg/DroneState.msg"
+  ]
+}

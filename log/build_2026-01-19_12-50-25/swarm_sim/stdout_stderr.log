@@ -1,0 +1,39 @@
+/home/demirci/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/swarm_sim/swarm_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/swarm_sim/swarm_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/swarm_sim/swarm_sim.egg-info/entry_points.txt
+writing requirements to ../../build/swarm_sim/swarm_sim.egg-info/requires.txt
+writing top-level names to ../../build/swarm_sim/swarm_sim.egg-info/top_level.txt
+reading manifest file '../../build/swarm_sim/swarm_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/swarm_sim/swarm_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+copying swarm_sim/mission_controller.py -> /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim
+copying swarm_sim/swarm_coordinator.py -> /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim
+copying swarm_sim/mission_commander.py -> /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim
+copying swarm_sim/__init__.py -> /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim
+copying swarm_sim/visualizer.py -> /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim
+copying swarm_sim/simulated_drone.py -> /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim
+running install
+running install_lib
+copying /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim/mission_controller.py -> /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim
+copying /home/demirci/swarm_sim_ws/build/swarm_sim/build/lib/swarm_sim/mission_commander.py -> /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim
+byte-compiling /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/mission_controller.py to mission_controller.cpython-310.pyc
+byte-compiling /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/mission_commander.py to mission_commander.cpython-310.pyc
+running install_data
+copying resource/swarm_sim -> /home/demirci/swarm_sim_ws/install/swarm_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/demirci/swarm_sim_ws/install/swarm_sim/share/swarm_sim
+creating /home/demirci/swarm_sim_ws/install/swarm_sim/share/swarm_sim/launch
+copying launch/guided_mission.launch.py -> /home/demirci/swarm_sim_ws/install/swarm_sim/share/swarm_sim/launch
+running install_egg_info
+removing '/home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/swarm_sim/swarm_sim.egg-info to /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim-0.0.1-py3.10.egg-info
+running install_scripts
+Installing mission_commander script to /home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim
+Installing mission_controller script to /home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim
+Installing simulated_drone script to /home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim
+Installing swarm_coordinator script to /home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim
+Installing visualizer script to /home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim
+writing list of installed files to '/home/demirci/swarm_sim_ws/build/swarm_sim/install.log'

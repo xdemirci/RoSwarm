@@ -1,0 +1,225 @@
+[0.008s] Invoking command in '/home/demirci/swarm_sim_ws/build/swarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/demirci/swarm_sim_ws/install/swarm_sim:/opt/ros/humble /usr/bin/cmake /home/demirci/swarm_sim_ws/src/swarm_msgs -DCMAKE_INSTALL_PREFIX=/home/demirci/swarm_sim_ws/install/swarm_msgs
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.102s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.213s] -- Detecting CXX compiler ABI info - done
+[0.221s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.224s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.459s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.518s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.522s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.562s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.737s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.875s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.073s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.088s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.088s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.106s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.107s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.107s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.122s] -- Found PythonExtra: .so  
+[1.158s] -- Configuring done
+[1.173s] -- Generating done
+[1.178s] -- Build files have been written to: /home/demirci/swarm_sim_ws/build/swarm_msgs
+[1.182s] Invoked command in '/home/demirci/swarm_sim_ws/build/swarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/demirci/swarm_sim_ws/install/swarm_sim:/opt/ros/humble /usr/bin/cmake /home/demirci/swarm_sim_ws/src/swarm_msgs -DCMAKE_INSTALL_PREFIX=/home/demirci/swarm_sim_ws/install/swarm_msgs
+[1.184s] Invoking command in '/home/demirci/swarm_sim_ws/build/swarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/demirci/swarm_sim_ws/install/swarm_sim:/opt/ros/humble /usr/bin/cmake --build /home/demirci/swarm_sim_ws/build/swarm_msgs -- -j16 -l16
+[1.211s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.219s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.226s] [  6%] Built target ament_cmake_python_copy_swarm_msgs
+[1.356s] running egg_info
+[1.366s] creating swarm_msgs.egg-info
+[1.366s] writing swarm_msgs.egg-info/PKG-INFO
+[1.366s] [  9%] [32mBuilding C object CMakeFiles/swarm_msgs__rosidl_generator_c.dir/rosidl_generator_c/swarm_msgs/msg/detail/drone_state__functions.c.o[0m
+[1.366s] writing dependency_links to swarm_msgs.egg-info/dependency_links.txt
+[1.366s] writing top-level names to swarm_msgs.egg-info/top_level.txt
+[1.367s] writing manifest file 'swarm_msgs.egg-info/SOURCES.txt'
+[1.375s] [  9%] Built target swarm_msgs__cpp
+[1.382s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.383s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.384s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.386s] [ 22%] [32m[1mLinking C shared library libswarm_msgs__rosidl_generator_c.so[0m
+[1.393s] reading manifest file 'swarm_msgs.egg-info/SOURCES.txt'
+[1.394s] writing manifest file 'swarm_msgs.egg-info/SOURCES.txt'
+[1.415s] [ 22%] Built target swarm_msgs__rosidl_generator_c
+[1.415s] [ 22%] Built target ament_cmake_python_build_swarm_msgs_egg
+[1.424s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.425s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.425s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.528s] [ 35%] [32mBuilding CXX object CMakeFiles/swarm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/swarm_msgs/msg/detail/drone_state__type_support.cpp.o[0m
+[1.534s] [ 38%] [32mBuilding CXX object CMakeFiles/swarm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/swarm_msgs/msg/detail/dds_fastrtps/drone_state__type_support.cpp.o[0m
+[1.562s] [ 41%] [32mBuilding CXX object CMakeFiles/swarm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/swarm_msgs/msg/drone_state__type_support.cpp.o[0m
+[1.575s] [ 45%] [32mBuilding C object CMakeFiles/swarm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/swarm_msgs/msg/detail/drone_state__type_support.c.o[0m
+[1.585s] [ 48%] [32m[1mLinking CXX shared library libswarm_msgs__rosidl_typesupport_c.so[0m
+[1.585s] [ 51%] [32mBuilding CXX object CMakeFiles/swarm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/swarm_msgs/msg/drone_state__type_support.cpp.o[0m
+[1.588s] [ 54%] [32m[1mLinking CXX shared library libswarm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.590s] [ 58%] [32m[1mLinking CXX shared library libswarm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.595s] [ 61%] [32m[1mLinking C shared library libswarm_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.605s] [ 64%] [32mBuilding CXX object CMakeFiles/swarm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/swarm_msgs/msg/detail/drone_state__type_support_c.cpp.o[0m
+[1.615s] [ 64%] Built target swarm_msgs__rosidl_typesupport_introspection_cpp
+[1.625s] [ 64%] Built target swarm_msgs__rosidl_typesupport_introspection_c
+[1.625s] [ 64%] Built target swarm_msgs__rosidl_typesupport_c
+[1.635s] [ 67%] [32m[1mLinking CXX shared library libswarm_msgs__rosidl_typesupport_cpp.so[0m
+[1.637s] [ 67%] Built target swarm_msgs__rosidl_typesupport_fastrtps_cpp
+[1.656s] [ 70%] [32m[1mLinking CXX shared library libswarm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.664s] [ 70%] Built target swarm_msgs__rosidl_typesupport_cpp
+[1.706s] [ 70%] Built target swarm_msgs__rosidl_typesupport_fastrtps_c
+[1.722s] [ 70%] Built target swarm_msgs
+[1.736s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.902s] [ 74%] Built target swarm_msgs__py
+[1.916s] [ 77%] [32mBuilding C object CMakeFiles/swarm_msgs__rosidl_generator_py.dir/rosidl_generator_py/swarm_msgs/msg/_drone_state_s.c.o[0m
+[1.927s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/swarm_msgs/libswarm_msgs__rosidl_generator_py.so[0m
+[1.956s] [ 80%] Built target swarm_msgs__rosidl_generator_py
+[1.971s] [ 83%] [32mBuilding C object CMakeFiles/swarm_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/swarm_msgs/_swarm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.972s] [ 87%] [32mBuilding C object CMakeFiles/swarm_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/swarm_msgs/_swarm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[1.973s] [ 90%] [32mBuilding C object CMakeFiles/swarm_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/swarm_msgs/_swarm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.983s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/swarm_msgs/swarm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.984s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/swarm_msgs/swarm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.984s] [100%] [32m[1mLinking C shared library rosidl_generator_py/swarm_msgs/swarm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.010s] [100%] Built target swarm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.012s] [100%] Built target swarm_msgs__rosidl_typesupport_c__pyext
+[2.014s] [100%] Built target swarm_msgs__rosidl_typesupport_introspection_c__pyext
+[2.023s] Invoked command in '/home/demirci/swarm_sim_ws/build/swarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/demirci/swarm_sim_ws/install/swarm_sim:/opt/ros/humble /usr/bin/cmake --build /home/demirci/swarm_sim_ws/build/swarm_msgs -- -j16 -l16
+[2.031s] Invoking command in '/home/demirci/swarm_sim_ws/build/swarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/demirci/swarm_sim_ws/install/swarm_sim:/opt/ros/humble /usr/bin/cmake --install /home/demirci/swarm_sim_ws/build/swarm_msgs
+[2.039s] -- Install configuration: ""
+[2.039s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/ament_index/resource_index/rosidl_interfaces/swarm_msgs
+[2.039s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[2.039s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[2.039s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[2.039s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__functions.h
+[2.039s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__struct.h
+[2.039s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__type_support.h
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__functions.c
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/drone_state.h
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/environment/library_path.sh
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/environment/library_path.dsv
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_generator_c.so
+[2.040s] -- Set runtime path of "/home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_generator_c.so" to ""
+[2.040s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[2.040s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[2.040s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__rosidl_typesupport_fastrtps_c.h
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_fastrtps_c.so
+[2.040s] -- Set runtime path of "/home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.040s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[2.040s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[2.040s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__type_support.c
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__rosidl_typesupport_introspection_c.h
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_introspection_c.so
+[2.040s] -- Set runtime path of "/home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.040s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_c.so
+[2.041s] -- Set runtime path of "/home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_c.so" to ""
+[2.041s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[2.041s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/drone_state.hpp
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.041s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__type_support.hpp
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__traits.hpp
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__builder.hpp
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__struct.hpp
+[2.041s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[2.041s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[2.041s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/dds_fastrtps
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.041s] -- Set runtime path of "/home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.041s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs
+[2.041s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg
+[2.041s] -- Up-to-date: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__rosidl_typesupport_introspection_cpp.hpp
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/include/swarm_msgs/swarm_msgs/msg/detail/drone_state__type_support.cpp
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_introspection_cpp.so
+[2.041s] -- Set runtime path of "/home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_cpp.so
+[2.041s] -- Set runtime path of "/home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_typesupport_cpp.so" to ""
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/environment/pythonpath.sh
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/environment/pythonpath.dsv
+[2.041s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs-0.0.1-py3.10.egg-info
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/__init__.py
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/_drone_state_s.c
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/_drone_state.py
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/_swarm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/_swarm_msgs_s.ep.rosidl_typesupport_c.c
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/__init__.py
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/libswarm_msgs__rosidl_generator_py.so
+[2.042s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/_swarm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.063s] Listing '/home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs'...
+[2.063s] Compiling '/home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/__init__.py'...
+[2.063s] Listing '/home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg'...
+[2.063s] Compiling '/home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/__init__.py'...
+[2.063s] Compiling '/home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/msg/_drone_state.py'...
+[2.066s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.066s] -- Set runtime path of "/home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.066s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.066s] -- Set runtime path of "/home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.066s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.066s] -- Set runtime path of "/home/demirci/swarm_sim_ws/install/swarm_msgs/local/lib/python3.10/dist-packages/swarm_msgs/swarm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.066s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_generator_py.so
+[2.066s] -- Set runtime path of "/home/demirci/swarm_sim_ws/install/swarm_msgs/lib/libswarm_msgs__rosidl_generator_py.so" to ""
+[2.066s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/msg/DroneState.idl
+[2.066s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/msg/DroneState.msg
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/ament_index/resource_index/package_run_dependencies/swarm_msgs
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/ament_index/resource_index/parent_prefix_path/swarm_msgs
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/environment/ament_prefix_path.sh
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/environment/ament_prefix_path.dsv
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/environment/path.sh
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/environment/path.dsv
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/local_setup.bash
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/local_setup.sh
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/local_setup.zsh
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/local_setup.dsv
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/package.dsv
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/ament_index/resource_index/packages/swarm_msgs
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_generator_cExport.cmake
+[2.067s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_cExport.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_generator_cppExport.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_cppExport.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_generator_pyExport.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/export_swarm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/rosidl_cmake-extras.cmake
+[2.068s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.069s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.069s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.069s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.069s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.069s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.069s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgsConfig.cmake
+[2.069s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/cmake/swarm_msgsConfig-version.cmake
+[2.069s] -- Installing: /home/demirci/swarm_sim_ws/install/swarm_msgs/share/swarm_msgs/package.xml
+[2.070s] Invoked command in '/home/demirci/swarm_sim_ws/build/swarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/demirci/swarm_sim_ws/install/swarm_sim:/opt/ros/humble /usr/bin/cmake --install /home/demirci/swarm_sim_ws/build/swarm_msgs
