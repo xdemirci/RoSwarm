@@ -11,6 +11,7 @@ setup.py
 launch/guided_mission.launch.py
 resource/swarm_sim
 swarm_sim/__init__.py
+swarm_sim/mavlink_bridge.py
 swarm_sim/mission_commander.py
 swarm_sim/mission_controller.py
 swarm_sim/simulated_drone.py

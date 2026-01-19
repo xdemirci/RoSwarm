@@ -28,6 +28,9 @@ setup(
             'visualizer = swarm_sim.visualizer:main',
             'mission_controller = swarm_sim.mission_controller:main',
             'mission_commander = swarm_sim.mission_commander:main',
+            'mavlink_bridge = swarm_sim.mavlink_bridge:main'
         ],
     },
 )
+
+#

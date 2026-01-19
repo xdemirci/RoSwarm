@@ -15,14 +15,14 @@ def generate_launch_description():
     
     # We'll create 3 drones at different starting positions
     drone_configs = [
-        {'id': 1, 'x': 0.0, 'y': 0.0, 'z': 0.0},
-        {'id': 2, 'x': 10.0, 'y': 0.0, 'z': 0.0},
-        {'id': 3, 'x': 0.0, 'y': 10.0, 'z': 0.0},
+        {'id': 1, 'x': 0.0, 'y': 0.0, 'z': 0.0, 'mavlink_port': 14551},
+        {'id': 2, 'x': 10.0, 'y': 0.0, 'z': 0.0, 'mavlink_port': 14561},
+        {'id': 3, 'x': 0.0, 'y': 10.0, 'z': 0.0, 'mavlink_port': 14571},
     ]
     
     nodes = []
     
-    # Launch simulated drones and mission controllers
+    # Launch simulated drones, mission controllers, and MAVLink bridges
     for config in drone_configs:
         # Simulated drone
         nodes.append(Node(
@@ -45,6 +45,19 @@ def generate_launch_description():
             name=f'mission_controller_{config["id"]}',
             parameters=[{
                 'drone_id': config['id'],
+            }],
+            output='screen'
+        ))
+        
+        # MAVLink bridge for each drone
+        nodes.append(Node(
+            package='swarm_sim',
+            executable='mavlink_bridge',
+            name=f'mavlink_bridge_{config["id"]}',
+            parameters=[{
+                'drone_id': config['id'],
+                'mavlink_port': config['mavlink_port'],
+                'system_id': config['id'],
             }],
             output='screen'
         ))

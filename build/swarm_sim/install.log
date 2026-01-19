@@ -4,12 +4,14 @@
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/__init__.py
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/visualizer.py
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/simulated_drone.py
+/home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/mavlink_bridge.py
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/__pycache__/mission_controller.cpython-310.pyc
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/__pycache__/swarm_coordinator.cpython-310.pyc
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/__pycache__/mission_commander.cpython-310.pyc
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/__pycache__/__init__.cpython-310.pyc
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/__pycache__/visualizer.cpython-310.pyc
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/__pycache__/simulated_drone.cpython-310.pyc
+/home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim/__pycache__/mavlink_bridge.cpython-310.pyc
 /home/demirci/swarm_sim_ws/install/swarm_sim/share/ament_index/resource_index/packages/swarm_sim
 /home/demirci/swarm_sim_ws/install/swarm_sim/share/swarm_sim/package.xml
 /home/demirci/swarm_sim_ws/install/swarm_sim/share/swarm_sim/launch/guided_mission.launch.py
@@ -20,6 +22,7 @@
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim-0.0.1-py3.10.egg-info/requires.txt
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim-0.0.1-py3.10.egg-info/SOURCES.txt
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/python3.10/site-packages/swarm_sim-0.0.1-py3.10.egg-info/entry_points.txt
+/home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim/mavlink_bridge
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim/mission_commander
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim/mission_controller
 /home/demirci/swarm_sim_ws/install/swarm_sim/lib/swarm_sim/simulated_drone
